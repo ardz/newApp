@@ -6,6 +6,8 @@ import {HttpModule, JsonpModule} from '@angular/http';
 import {AppComponent} from './app.component';
 import {routing, appRoutingProviders} from './app.routing';
 
+import {NewDogComponent} from './newdog/newdog.component';
+
 import {DogComponent} from './dog/dog.component';
 import {HeroComponent} from './hero/hero.component';
 import {HomeComponent} from './home/home.component';
@@ -14,6 +16,7 @@ import {HomeComponent} from './home/home.component';
 @NgModule({
     declarations: [
         AppComponent,
+        NewDogComponent,
         DogComponent,
         HeroComponent,
         HomeComponent

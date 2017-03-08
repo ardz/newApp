@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
     providers: []
 })
 
-export class HeroComponent implements OnInit {
+export class NewDogComponent implements OnInit {
 
     /*** Local variables */
     public binding: string;
