@@ -1,0 +1,7 @@
+<div *ngFor="let hero of heroes">{{hero.name}} 
+    <button (click) = "buttonClicked(hero)">{{hero.name}}</button>
+</div>
+
+
+<input type="text" placeholder="Text here" [(ngModel)]="binding">
+<button (click) = "printBinding()">Click Me</button>
